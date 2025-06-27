@@ -1,0 +1,334 @@
+﻿<Window x:Class="ClientApp.MainClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="🎮 Game Trắc Nghiệm Nhanh" Height="600" Width="700"
+        WindowStartupLocation="CenterScreen">
+
+	<Window.Background>
+		<LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+			<GradientStop Color="#FF1E1E2F" Offset="0.0"/>
+			<GradientStop Color="#FF1E1E2F" Offset="1.0"/>
+		</LinearGradientBrush>
+	</Window.Background>
+	
+	
+	<Window.Resources>
+		<!-- Hiệu ứng đổ bóng -->
+		<DropShadowEffect x:Key="DropShadow"
+					 BlurRadius="10"
+					 ShadowDepth="2"
+					 Direction="320"
+					 Color="Black"
+					 Opacity="0.3" />
+		<Storyboard x:Key="FadeInStoryboard">
+			<DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5"/>
+		</Storyboard>
+
+		<!-- Style đáp án A -->
+		<Style x:Key="AnswerOptionA" TargetType="RadioButton">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="RadioButton">
+						<Border x:Name="border"
+								Background="#E8F0FE"
+
+							BorderBrush="#C3D5FD"
+							BorderThickness="2"
+							CornerRadius="20"
+							Padding="18"
+							Margin="8"
+							Effect="{StaticResource DropShadow}">
+							<ContentPresenter HorizontalAlignment="Center"
+											  VerticalAlignment="Center"
+											  TextElement.FontSize="18"
+											  TextElement.FontWeight="SemiBold"
+											  TextElement.Foreground="Black"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsChecked" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#4285F4"/>
+								<!-- Màu Google Blue -->
+								<Setter TargetName="border" Property="BorderBrush" Value="#3367D6"/>
+								<Setter TargetName="border" Property="TextElement.Foreground" Value="White"/>
+							</Trigger>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#D2E3FC"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+
+
+
+		<!-- Style đáp án B -->
+		<Style x:Key="AnswerOptionB" TargetType="RadioButton" BasedOn="{StaticResource AnswerOptionA}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="RadioButton">
+						<Border x:Name="border"
+								Background="#FCE8E6"
+								BorderBrush="#F8BBD0"
+								BorderThickness="2"
+								CornerRadius="20"
+								Padding="18"
+								Margin="8"
+								Effect="{StaticResource DropShadow}">
+							<ContentPresenter HorizontalAlignment="Center"
+											  VerticalAlignment="Center"
+											  TextElement.FontSize="18"
+											  TextElement.FontWeight="SemiBold"
+											  TextElement.Foreground="Black"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsChecked" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#EA4335"/>
+								<!-- Màu Google Red -->
+								<Setter TargetName="border" Property="BorderBrush" Value="#B71C1C"/>
+								<Setter TargetName="border" Property="TextElement.Foreground" Value="White"/>
+							</Trigger>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#F9DAD7"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+
+
+		<!-- Style đáp án C -->
+		<Style x:Key="AnswerOptionC" TargetType="RadioButton" BasedOn="{StaticResource AnswerOptionA}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="RadioButton">
+						<Border x:Name="border"
+								Background="#E6F4EA"
+								BorderBrush="#A5D6A7"
+								BorderThickness="2"
+								CornerRadius="20"
+								Padding="18"
+								Margin="8"
+								Effect="{StaticResource DropShadow}">
+							<ContentPresenter HorizontalAlignment="Center"
+											  VerticalAlignment="Center"
+											  TextElement.FontSize="18"
+											  TextElement.FontWeight="SemiBold"
+											  TextElement.Foreground="Black"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsChecked" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#34A853"/>
+								<!-- Màu Google Green -->
+								<Setter TargetName="border" Property="BorderBrush" Value="#1B5E20"/>
+								<Setter TargetName="border" Property="TextElement.Foreground" Value="White"/>
+							</Trigger>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#CCEAD6"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+
+
+
+		<!-- Style đáp án D -->
+		<Style x:Key="AnswerOptionD" TargetType="RadioButton" BasedOn="{StaticResource AnswerOptionA}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="RadioButton">
+						<Border x:Name="border"
+								Background="#FEF7E0"
+								BorderBrush="#FFF59D"
+								BorderThickness="2"
+								CornerRadius="20"
+								Padding="18"
+								Margin="8"
+								Effect="{StaticResource DropShadow}">
+							<ContentPresenter HorizontalAlignment="Center"
+											  VerticalAlignment="Center"
+											  TextElement.FontSize="18"
+											  TextElement.FontWeight="SemiBold"
+											  TextElement.Foreground="Black"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsChecked" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#FBBC05"/>
+								<!-- Màu Google Yellow -->
+								<Setter TargetName="border" Property="BorderBrush" Value="#F57F17"/>
+								<Setter TargetName="border" Property="TextElement.Foreground" Value="White"/>
+							</Trigger>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#FEEFC3"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+
+
+
+		<!-- Style nút bấm -->
+		<Style x:Key="RoundedButtonStyle" TargetType="Button">
+			<Setter Property="Background" Value="#2196F3"/>
+			<Setter Property="Foreground" Value="White"/>
+			<Setter Property="FontSize" Value="16"/>
+			<Setter Property="FontWeight" Value="SemiBold"/>
+			<Setter Property="Padding" Value="10,5"/>
+			<Setter Property="BorderThickness" Value="0"/>
+			<Setter Property="Cursor" Value="Hand"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Border Background="{TemplateBinding Background}" CornerRadius="20"
+                                Padding="{TemplateBinding Padding}" Effect="{StaticResource DropShadow}">
+							<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Background" Value="#1976D2"/>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Background" Value="#0D47A1"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+
+	<Grid Margin="10">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<ComboBox x:Name="cbTopic" Width="200" Margin="0,10,0,10">
+			<ComboBoxItem Content="Toán" />
+			<ComboBoxItem Content="Lịch sử" />
+			<ComboBoxItem Content="Văn" />
+			<ComboBoxItem Content="Địa lý" />
+		</ComboBox>
+
+	
+
+		<!-- Thông tin người chơi -->
+		<Border Grid.Row="0" Margin="0,5" Padding="10" Background="#263238" CornerRadius="10"
+				Effect="{StaticResource DropShadow}">
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+				<TextBlock Text="👤 Người chơi:"  Foreground="White" FontWeight="Bold" VerticalAlignment="Center" Margin="5"/>
+				<TextBox x:Name="txtUsername" Width="120" Margin="5" IsReadOnly="True"
+						 Background="#E3F2FD" BorderBrush="#90CAF9" BorderThickness="1" Padding="3"/>
+				<TextBlock Text="🌐 Server:" Foreground="White" FontWeight="Bold" VerticalAlignment="Center" Margin="5"/>
+				<TextBox x:Name="txtServerIP" Width="150" Margin="5" IsReadOnly="True"
+						 Background="#E3F2FD" BorderBrush="#90CAF9" BorderThickness="1" Padding="3"/>
+			</StackPanel>
+		</Border>
+
+		<!-- Đồng hồ đếm -->
+		<Border Grid.Row="1" Margin="0,5" Padding="10" Background="#37474F" CornerRadius="10"
+				HorizontalAlignment="Center" Effect="{StaticResource DropShadow}">
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+				<TextBlock Text="⏱ Thời gian:" Foreground="White" FontSize="16" FontWeight="Bold" Margin="5"/>
+				<TextBlock x:Name="txtTime" FontSize="16" FontWeight="Bold" Foreground="#FFCA28" Margin="5" Text="--s"/>
+			</StackPanel>
+		</Border>
+
+
+		<!-- Câu hỏi -->
+		<Border Grid.Row="2"
+        Background="#FFF9C4"
+        CornerRadius="15"
+        Padding="15"
+        Margin="0,10"
+        BorderBrush="#FBC02D"
+        BorderThickness="2"
+        Effect="{StaticResource DropShadow}">
+
+			<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+				<!-- Biểu tượng đồng hồ -->
+				<TextBlock Text="❓" FontSize="24" Margin="0,0,10,0" VerticalAlignment="Top"/>
+
+				<!-- ScrollViewer chứa câu hỏi -->
+				<ScrollViewer VerticalScrollBarVisibility="Auto" Height="120">
+					<TextBlock x:Name="txtQuestion"
+							   FontSize="20"
+							   FontWeight="SemiBold"
+							   Foreground="#3E2723"
+							   TextWrapping="Wrap"
+							   Text="⏳ Câu hỏi sẽ hiển thị tại đây..." />
+				</ScrollViewer>
+			</StackPanel>
+		</Border>
+
+
+		<!-- Đáp án -->
+		<Border Grid.Row="3" CornerRadius="15" Padding="10" Margin="0,10"
+                Background="#E3F2FD" Effect="{StaticResource DropShadow}">
+			<UniformGrid Columns="2" Rows="2" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+				<RadioButton x:Name="rdoA" Content="A. ..." GroupName="AnswerGroup" Style="{StaticResource AnswerOptionA}"/>
+				<RadioButton x:Name="rdoB" Content="B. ..." GroupName="AnswerGroup" Style="{StaticResource AnswerOptionB}"/>
+				<RadioButton x:Name="rdoC" Content="C. ..." GroupName="AnswerGroup" Style="{StaticResource AnswerOptionC}"/>
+				<RadioButton x:Name="rdoD" Content="D. ..." GroupName="AnswerGroup" Style="{StaticResource AnswerOptionD}"/>
+			</UniformGrid>
+		</Border>
+
+		<!-- Kết quả hiển thị -->
+		<TextBlock x:Name="txtResult" Grid.Row="4" Text="" FontSize="18" FontWeight="Bold"
+                   Foreground="Black" TextAlignment="Center" Margin="10"/>
+
+		<!-- Các nút điều khiển -->
+		<StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10">
+			<Button x:Name="btnTraLoi" Content="✅ Trả lời" Width="150" Height="45" Margin="10"
+                    Style="{StaticResource RoundedButtonStyle}" Click="BtnTraLoi_Click"/>
+			<Button x:Name="btnKetQua" Content="📊 Xem kết quả" Width="150" Height="45" Margin="10"
+                    Style="{StaticResource RoundedButtonStyle}" Click="BtnKetQua_Click"/>
+			<Button x:Name="btnNext" Content="Câu tiếp theo" Width="150" Height="45" Margin="10"
+                    Style="{StaticResource RoundedButtonStyle}" Click="BtnNext_Click" Visibility="Collapsed"/>
+		</StackPanel>
+
+		<!-- Overlay kết quả -->
+		<Grid x:Name="gridOverlay" Background="#CCFFFFFF" Visibility="Collapsed"
+              Grid.RowSpan="6" Panel.ZIndex="999">
+			<Border Background="White" Padding="20" CornerRadius="15"
+                    BorderBrush="#4CAF50" BorderThickness="3"
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Effect="{StaticResource DropShadow}">
+				<StackPanel HorizontalAlignment="Center">
+					<TextBlock x:Name="txtOverlayResult" Text="🎉 Đúng rồi!"
+							   FontSize="24" FontWeight="Bold" Foreground="#388E3C"
+							   TextAlignment="Center" Margin="10"/>
+					<TextBlock x:Name="txtOverlayScore" Text="(+10 điểm)"
+							   FontSize="18" FontWeight="SemiBold"
+							   Foreground="#1976D2" TextAlignment="Center" Margin="5"/>
+
+					<Button x:Name="btnTiepTuc" Content="▶ Tiếp tục"
+							Width="120" Height="40" Margin="10"
+							Style="{StaticResource RoundedButtonStyle}"
+							Click="BtnTiepTuc_Click"/>
+
+					<Button x:Name="btnXemKetQua" Content="📊 Xem kết quả"
+							Width="150" Height="45" Margin="10"
+							 Style="{StaticResource RoundedButtonStyle}"
+							 Click="BtnKetQua_Click"
+							Visibility="Collapsed"/>
+
+
+					<Button x:Name="btnThoat" Content="❌ Thoát" Width="150" Height="45" Margin="10"
+							Style="{StaticResource RoundedButtonStyle}"
+							Click="BtnThoat_Click" Visibility="Collapsed"/>
+				</StackPanel>
+
+			</Border>
+		</Grid>
+	</Grid>
+</Window> 

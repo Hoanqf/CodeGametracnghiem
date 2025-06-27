@@ -1,0 +1,109 @@
+﻿<Window x:Class="QuizServer.KTServer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quiz Server" Height="540" Width="850"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Background="#2C2F48">
+	<Window.Resources>
+		<!-- Nút hiện đại -->
+		<Style x:Key="ModernButton" TargetType="Button">
+			<Setter Property="Background" Value="#5C6BC0"/>
+			<Setter Property="Foreground" Value="White"/>
+			<Setter Property="FontSize" Value="14"/>
+			<Setter Property="FontFamily" Value="Segoe UI"/>
+			<Setter Property="Padding" Value="10,6"/>
+			<Setter Property="Margin" Value="6,0"/>
+			<Setter Property="BorderThickness" Value="0"/>
+			<Setter Property="Cursor" Value="Hand"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Border Background="{TemplateBinding Background}" CornerRadius="6">
+							<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Background" Value="#3F51B5"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False">
+								<Setter Property="Background" Value="#9FA8DA"/>
+								<Setter Property="Foreground" Value="#ECEFF1"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+
+		<!-- Nhãn văn bản -->
+		<Style x:Key="LabelStyle" TargetType="TextBlock">
+			<Setter Property="FontFamily" Value="Segoe UI"/>
+			<Setter Property="FontSize" Value="14"/>
+			<Setter Property="Foreground" Value="#ECEFF1"/>
+			<Setter Property="VerticalAlignment" Value="Center"/>
+			<Setter Property="Margin" Value="6,0"/>
+		</Style>
+	</Window.Resources>
+
+	<Grid Margin="25">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<!-- Cấu hình Server -->
+		<StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,15">
+			<TextBlock Text="🔌 Port:" Style="{StaticResource LabelStyle}" FontWeight="SemiBold"/>
+			<TextBox x:Name="txtPort" Width="100" Text="5000" Margin="10,0"
+                     FontSize="14" Padding="6" Background="#F5F5F5"
+                     BorderBrush="#5C6BC0" BorderThickness="1"/>
+			<Button x:Name="btnStartServer" Style="{StaticResource ModernButton}" Click="btnStartServer_Click">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="▶" FontSize="16" Margin="0,0,5,0"/>
+					<TextBlock Text="Start Server"/>
+				</StackPanel>
+			</Button>
+			<Button x:Name="btnStopServer" Style="{StaticResource ModernButton}" Click="btnStopServer_Click" IsEnabled="False">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="■" FontSize="16" Margin="0,0,5,0"/>
+					<TextBlock Text="Stop"/>
+				</StackPanel>
+			</Button>
+			<TextBlock x:Name="lblServerStatus" Style="{StaticResource LabelStyle}" FontWeight="Bold" Foreground="#66BB6A"/>
+		</StackPanel>
+
+		<!-- Trạng thái CSDL -->
+		<StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,15">
+			<TextBlock Text="💾 Database:" Style="{StaticResource LabelStyle}" FontWeight="SemiBold"/>
+			<TextBlock x:Name="lblDbStatus" Style="{StaticResource LabelStyle}" Foreground="#29B6F6"/>
+			<TextBlock x:Name="lblQuestionCount" Style="{StaticResource LabelStyle}" Foreground="#AED581" Margin="20,0"/>
+		</StackPanel>
+
+		<!-- Quiz -->
+		<StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,0,0,15">
+			<Button x:Name="btnStartQuiz" Style="{StaticResource ModernButton}" Click="btnStartQuiz_Click" IsEnabled="False">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="🧠" FontSize="16" Margin="0,0,5,0"/>
+					<TextBlock Text="Start Quiz"/>
+				</StackPanel>
+			</Button>
+			<TextBlock x:Name="lblQuizStatus" Style="{StaticResource LabelStyle}" Foreground="#FFEE58" FontWeight="Bold"/>
+		</StackPanel>
+
+		<!-- Log -->
+		<GroupBox Header="📜 Server Logs" Grid.Row="4" Padding="10"
+                  FontWeight="Bold" BorderBrush="#5C6BC0" BorderThickness="1"
+                  Background="#FDFDFD" Margin="0,10,0,0" Foreground="#212121">
+			<TextBox x:Name="txtLog"
+                     FontFamily="Consolas" FontSize="13"
+                     IsReadOnly="True" TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto"
+                     Background="#FAFAFA"
+                     BorderBrush="#CFD8DC" BorderThickness="1"/>
+		</GroupBox>
+	</Grid>
+</Window>

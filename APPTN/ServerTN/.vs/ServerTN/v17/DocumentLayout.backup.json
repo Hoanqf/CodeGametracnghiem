@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DUAN2025\\APPTN\\ServerTN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65B55A7F-B31F-41A7-8900-A2A8B254201A}|..\\ClientUers\\ClientUers.csproj|d:\\duan2025\\apptn\\clientuers\\mainclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B55A7F-B31F-41A7-8900-A2A8B254201A}|..\\ClientUers\\ClientUers.csproj|d:\\duan2025\\apptn\\clientuers\\loginclienttn.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83BEF4A6-EA22-489C-8729-E5E40A78DEA1}|ServerTN.csproj|D:\\DUAN2025\\APPTN\\ServerTN\\ktserver.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83BEF4A6-EA22-489C-8729-E5E40A78DEA1}|ServerTN.csproj|solutionrelative:ktserver.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginClientTN.xaml.cs",
+              "DocumentMoniker": "D:\\DUAN2025\\APPTN\\ClientUers\\LoginClientTN.xaml.cs",
+              "RelativeDocumentMoniker": "..\\ClientUers\\LoginClientTN.xaml.cs",
+              "ToolTip": "D:\\DUAN2025\\APPTN\\ClientUers\\LoginClientTN.xaml.cs*",
+              "RelativeToolTip": "..\\ClientUers\\LoginClientTN.xaml.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:59:30.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainClient.xaml.cs",
+              "DocumentMoniker": "D:\\DUAN2025\\APPTN\\ClientUers\\MainClient.xaml.cs",
+              "RelativeDocumentMoniker": "..\\ClientUers\\MainClient.xaml.cs",
+              "ToolTip": "D:\\DUAN2025\\APPTN\\ClientUers\\MainClient.xaml.cs",
+              "RelativeToolTip": "..\\ClientUers\\MainClient.xaml.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAqwKIBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:56:32.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KTServer.xaml.cs",
+              "DocumentMoniker": "D:\\DUAN2025\\APPTN\\ServerTN\\KTServer.xaml.cs",
+              "RelativeDocumentMoniker": "KTServer.xaml.cs",
+              "ToolTip": "D:\\DUAN2025\\APPTN\\ServerTN\\KTServer.xaml.cs",
+              "RelativeToolTip": "KTServer.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:27:37.045Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 108,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
