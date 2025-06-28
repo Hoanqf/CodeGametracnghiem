@@ -49,3 +49,20 @@ C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.CoreCompileInputs.cache
 C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.Up2Date
 C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.exe
 C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.pdb
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\ServerTN.exe.config
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\ServerTN.exe
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\ServerTN.pdb
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\KTServer.baml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\KTServer.g.cs
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\App.g.cs
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN_MarkupCompile.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.g.resources
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.Up2Date
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.exe
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.pdb

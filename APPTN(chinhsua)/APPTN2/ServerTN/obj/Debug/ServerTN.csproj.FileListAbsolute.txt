@@ -1,0 +1,85 @@
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN.csproj.AssemblyReference.cache
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\App.g.cs
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN_MarkupCompile.cache
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN.g.resources
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN.Properties.Resources.resources
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN.csproj.GenerateResource.cache
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN.csproj.CoreCompileInputs.cache
+D:\DUAN2025\APPTN\ServerTN\bin\Debug\ServerTN.exe.config
+D:\DUAN2025\APPTN\ServerTN\bin\Debug\ServerTN.exe
+D:\DUAN2025\APPTN\ServerTN\bin\Debug\ServerTN.pdb
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN.exe
+D:\DUAN2025\APPTN\ServerTN\obj\Debug\ServerTN.pdb
+D:\DUAN2025\APPTN\SERVERTN\obj\Debug\KTServer.baml
+D:\DUAN2025\APPTN\SERVERTN\obj\Debug\KTServer.g.cs
+D:\DUAN2025\APPTN\SERVERTN\bin\Debug\Newtonsoft.Json.dll
+D:\DUAN2025\APPTN\SERVERTN\bin\Debug\Newtonsoft.Json.xml
+D:\DUAN2025\APPTN\SERVERTN\obj\Debug\ServerTN.csproj.Up2Date
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\bin\Debug\ServerTN.exe.config
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\bin\Debug\ServerTN.exe
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\bin\Debug\ServerTN.pdb
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.AssemblyReference.cache
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\KTServer.baml
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\KTServer.g.cs
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\App.g.cs
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN_MarkupCompile.cache
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.g.resources
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.Properties.Resources.resources
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.GenerateResource.cache
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.CoreCompileInputs.cache
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.Up2Date
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.exe
+C:\Users\nguyen duy nhat\Downloads\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.pdb
+C:\APPTN (2)\APPTN\ServerTN\bin\Debug\ServerTN.exe.config
+C:\APPTN (2)\APPTN\ServerTN\bin\Debug\ServerTN.exe
+C:\APPTN (2)\APPTN\ServerTN\bin\Debug\ServerTN.pdb
+C:\APPTN (2)\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.dll
+C:\APPTN (2)\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.xml
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.AssemblyReference.cache
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\KTServer.baml
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\KTServer.g.cs
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\App.g.cs
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN_MarkupCompile.cache
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.g.resources
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.Properties.Resources.resources
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.GenerateResource.cache
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.CoreCompileInputs.cache
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.csproj.Up2Date
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.exe
+C:\APPTN (2)\APPTN\ServerTN\obj\Debug\ServerTN.pdb
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\ServerTN.exe.config
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\ServerTN.exe
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\ServerTN.pdb
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\KTServer.baml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\KTServer.g.cs
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\App.g.cs
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN_MarkupCompile.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.g.resources
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.csproj.Up2Date
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.exe
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ServerTN\obj\Debug\ServerTN.pdb
+D:\D(du lieu)\downloads\APPTN2\ServerTN\bin\Debug\ServerTN.exe.config
+D:\D(du lieu)\downloads\APPTN2\ServerTN\bin\Debug\ServerTN.exe
+D:\D(du lieu)\downloads\APPTN2\ServerTN\bin\Debug\ServerTN.pdb
+D:\D(du lieu)\downloads\APPTN2\ServerTN\bin\Debug\Newtonsoft.Json.dll
+D:\D(du lieu)\downloads\APPTN2\ServerTN\bin\Debug\Newtonsoft.Json.xml
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.csproj.AssemblyReference.cache
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\KTServer.baml
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\KTServer.g.cs
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\App.g.cs
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN_MarkupCompile.cache
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.g.resources
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.Properties.Resources.resources
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.csproj.GenerateResource.cache
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.csproj.CoreCompileInputs.cache
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.csproj.Up2Date
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.exe
+D:\D(du lieu)\downloads\APPTN2\ServerTN\obj\Debug\ServerTN.pdb

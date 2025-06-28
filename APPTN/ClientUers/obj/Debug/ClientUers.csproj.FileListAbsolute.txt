@@ -103,3 +103,38 @@ C:\APPTN (2)\APPTN\ClientUers\obj\Debug\ClientUers.csproj.CoreCompileInputs.cach
 C:\APPTN (2)\APPTN\ClientUers\obj\Debug\ClientUers.csproj.Up2Date
 C:\APPTN (2)\APPTN\ClientUers\obj\Debug\ClientUers.exe
 C:\APPTN (2)\APPTN\ClientUers\obj\Debug\ClientUers.pdb
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\ClientUers.exe.config
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\ClientUers.exe
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\ClientUers.pdb
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\EPPlus.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\EPPlus.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Buffers.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Memory.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\MainClient.baml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\LoginClientTN.baml
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\MainClient.g.cs
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\LoginClientTN.g.cs
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\App.g.cs
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers_MarkupCompile.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.g.resources
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.csproj.Up2Date
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.exe
+C:\Users\ADMIN\OneDrive\Documents\Bài báo cáo LTM\APPTN\ClientUers\obj\Debug\ClientUers.pdb
